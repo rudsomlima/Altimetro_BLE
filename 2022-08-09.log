@@ -1,0 +1,481 @@
+2022-08-09 16:41:18.837 INFO [org.xcontest.XCTrack.config.n0:N0()7] Not pro; code: 0x115e30
+2022-08-09 16:41:26.495 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 16:41:31.842 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 16:41:40.742 INFO [org.xcontest.XCTrack.config.n0:N0()7] Not pro; code: 0x115e30
+2022-08-09 16:41:42.199 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 16:41:47.537 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 16:45:46.574 INFO [org.xcontest.XCTrack.config.n0:N0()7] Not pro; code: 0x115e30
+2022-08-09 16:48:20.561 INFO [org.xcontest.XCTrack.config.n0:N0()7] Not pro; code: 0x115e30
+2022-08-09 16:48:38.574 INFO [org.xcontest.XCTrack.config.n0:N0()7] Not pro; code: 0x115e30
+2022-08-09 16:48:48.591 INFO [org.xcontest.XCTrack.config.n0:N0()7] Not pro; code: 0x115e30
+2022-08-09 16:49:40.549 INFO [org.xcontest.XCTrack.config.n0:N0()7] Not pro; code: 0x115e30
+2022-08-09 16:50:16.563 INFO [org.xcontest.XCTrack.config.n0:N0()7] Not pro; code: 0x115e30
+2022-08-09 17:00:22.092 INFO [org.xcontest.XCTrack.config.n0:N0()7] Not pro; code: 0x115e30
+2022-08-09 17:03:17.301 INFO [org.xcontest.XCTrack.config.n0:N0()7] Not pro; code: 0x115e30
+2022-08-09 17:03:40.167 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:03:45.418 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:03:55.555 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:04:00.712 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:04:10.848 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:04:16.001 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:04:26.169 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:04:31.331 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:04:41.498 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:04:46.652 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:04:56.818 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:05:01.978 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:05:12.150 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:05:17.313 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:05:27.477 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:05:32.635 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:05:42.809 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:05:47.977 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:05:58.149 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:06:03.316 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:06:13.478 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:06:18.633 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:06:28.780 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:06:33.934 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:06:35.529 INFO [org.xcontest.XCTrack.config.n0:N0()7] Not pro; code: 0x115e30
+2022-08-09 17:06:44.105 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:06:49.269 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:06:59.433 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:07:04.588 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:07:14.774 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:07:19.937 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:07:30.210 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:07:35.543 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:07:45.700 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:07:50.863 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:08:01.043 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:08:06.181 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:08:06.182 ERROR [org.xcontest.XCTrack.l:a()12] Bluetooth exception while connecting
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.readInt(BluetoothSocket.java:786)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:404)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:8)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:08:11.313 ERROR [org.xcontest.XCTrack.l:a()23] Bluetooth connection failed: 
+	EXCEPTION: java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+	at android.bluetooth.BluetoothSocket.readAll(BluetoothSocket.java:772)
+	at android.bluetooth.BluetoothSocket.waitSocketSignal(BluetoothSocket.java:725)
+	at android.bluetooth.BluetoothSocket.connect(BluetoothSocket.java:409)
+	at org.xcontest.XCTrack.l.a(BluetoothSensorWorker.java:16)
+	at org.xcontest.XCTrack.l.run(BluetoothSensorWorker.java:4)
+	at java.lang.Thread.run(Thread.java:919)
+2022-08-09 17:08:40.200 INFO [mainActivity] Preferences changed (Testing.Log), reloading.
+2022-08-09 17:08:41.145 INFO [mainActivity] Preferences changed (Testing.ExternalSensorLog), reloading.
+2022-08-09 17:08:41.503 DEBUG [Nofix worker] Nofix wake up 1356346317 > 1356350338
+2022-08-09 17:08:41.534 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064920000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223332166666665, lat=-5.83551235}, altGps=130.3, speedGps=0.257222, bearingGps=50.6, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.21871993788882418, bearingComputed=52.40562079025096, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:41.588 INFO [TrackService] Starting service onStartCommand, intent: Intent { act=restoreService cmp=org.xcontest.XCTrack/.TrackService }, startId: 6,
+2022-08-09 17:08:42.527 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064921000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22333198333333, lat=-5.835513233333334}, altGps=130.9, speedGps=0.257222, bearingGps=51.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.10029396759422964, bearingComputed=168.3339791912918, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:43.517 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064922000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223326316666665, lat=-5.835515433333334}, altGps=130.6, speedGps=0.4115552, bearingGps=51.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.6728824445705008, bearingComputed=111.31859647401107, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:44.528 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064923000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223319866666664, lat=-5.835516833333333}, altGps=130.2, speedGps=0.3601108, bearingGps=51.2, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.730275917160506, bearingComputed=102.30818603267305, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:45.519 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064924000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233179, lat=-5.835515066666667}, altGps=130.9, speedGps=0.2057776, bearingGps=50.2, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.29311847706135624, bearingComputed=47.91845405373326, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:46.504 DEBUG [Nofix worker] Nofix wake up 1356351319 > 1356355334
+2022-08-09 17:08:46.510 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064925000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223317116666664, lat=-5.835513716666666}, altGps=130.5, speedGps=0.2057776, bearingGps=50.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.17332746084731665, bearingComputed=29.995261406510387, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:47.513 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064926000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22331713333333, lat=-5.835513716666666}, altGps=129.6, speedGps=0.1028888, bearingGps=51.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.0018436451721508325, bearingComputed=270.0, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:48.524 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064927000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233181, lat=-5.835515733333334}, altGps=129.7, speedGps=0.257222, bearingGps=55.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.24843368437840085, bearingComputed=205.49436662918964, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:49.522 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064928000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22332651666667, lat=-5.835520366666667}, altGps=129.6, speedGps=0.3601108, bearingGps=49.2, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.0640822960822385, bearingComputed=241.04149621815318, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:50.528 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064929000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223330516666664, lat=-5.83552705}, altGps=128.9, speedGps=0.3086664, bearingGps=50.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.8649046016102546, bearingComputed=210.76966198493787, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:51.507 DEBUG [Nofix worker] Nofix wake up 1356356321 > 1356360343
+2022-08-09 17:08:51.523 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064930000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22332946666667, lat=-5.83553155}, altGps=128.3, speedGps=0.2057776, bearingGps=49.6, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.5136808827447663, bearingComputed=166.93169835383952, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:52.549 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064931000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22333811666667, lat=-5.835537566666667}, altGps=128.2, speedGps=0.1543332, bearingGps=48.7, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.1675430400835645, bearingComputed=235.03907230575427, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:53.513 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064932000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22334768333333, lat=-5.8355385166666665}, altGps=128.0, speedGps=0.1028888, bearingGps=53.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.0635114006268045, bearingComputed=264.2995937657112, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:54.518 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064933000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233492, lat=-5.835541933333333}, altGps=127.6, speedGps=0.2057776, bearingGps=52.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.415311336599115, bearingComputed=203.8263519831274, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:55.533 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064934000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233492, lat=-5.83554195}, altGps=127.2, speedGps=0.1028888, bearingGps=52.2, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.0018532487375821916, bearingComputed=180.00001566679202, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:56.508 DEBUG [Nofix worker] Nofix wake up 1356361322 > 1356365348
+2022-08-09 17:08:56.512 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064935000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22334923333333, lat=-5.83554195}, altGps=127.0, speedGps=0.0514444, bearingGps=53.1, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.003687289372609506, bearingComputed=270.0, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:57.534 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064936000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233556, lat=-5.835542083333333}, altGps=126.6, speedGps=0.2057776, bearingGps=53.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.7044283994355246, bearingComputed=268.79401564436046, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:58.527 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064937000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223355616666666, lat=-5.8355421}, altGps=126.6, speedGps=0.1028888, bearingGps=54.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.002614107507365376, bearingComputed=224.85116057973693, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:08:59.525 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064938000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22335568333333, lat=-5.835542116666667}, altGps=127.6, speedGps=0.0514444, bearingGps=55.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.007603877592551997, bearingComputed=255.89355060444228, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:00.519 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064939000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233684, lat=-5.835549966666667}, altGps=128.6, speedGps=0.0514444, bearingGps=54.6, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.6555143296560826, bearingComputed=238.17974609508892, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:01.509 DEBUG [Nofix worker] Nofix wake up 1356366323 > 1356370334
+2022-08-09 17:09:01.527 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064940000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223368433333334, lat=-5.83555}, altGps=128.2, speedGps=0.0514444, bearingGps=56.1, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.005228214978123134, bearingComputed=224.85116521776027, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:02.536 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064941000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336845, lat=-5.83555}, altGps=128.3, speedGps=0.0514444, bearingGps=55.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.0018436450528275987, bearingComputed=270.0, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:03.532 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064942000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22337173333333, lat=-5.83555765}, altGps=127.7, speedGps=0.0514444, bearingGps=47.5, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.9249341869748745, bearingComputed=203.1210153053956, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:04.543 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064943000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22337175, lat=-5.83555765}, altGps=127.4, speedGps=0.0514444, bearingGps=42.6, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.0018436450276693214, bearingComputed=270.0, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:05.527 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064944000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22337183333333, lat=-5.835557616666667}, altGps=127.4, speedGps=0.0, bearingGps=42.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.00993548111867874, bearingComputed=291.90425443943707, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:06.510 DEBUG [Nofix worker] Nofix wake up 1356371324 > 1356375342
+2022-08-09 17:09:06.545 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064945000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22338418333333, lat=-5.835568266666667}, altGps=126.6, speedGps=0.1028888, bearingGps=52.5, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.80796347819394, bearingComputed=229.07993461661414, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:07.539 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064946000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233842, lat=-5.83556835}, altGps=125.7, speedGps=0.0514444, bearingGps=50.5, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.00944787280720431, bearingComputed=191.25281932180866, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:08.524 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064947000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22338953333333, lat=-5.8355853}, altGps=124.8, speedGps=0.257222, bearingGps=61.5, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.9749323906702938, bearingComputed=197.38118122030698, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:08.813 INFO [TrackService] Starting service onStartCommand, intent: Intent { act=restoreService cmp=org.xcontest.XCTrack/.TrackService }, startId: 7,
+2022-08-09 17:09:09.521 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064948000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22338466666667, lat=-5.835597716666666}, altGps=124.0, speedGps=0.3086664, bearingGps=76.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.4819126625507903, bearingComputed=158.69843686547466, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:10.523 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064949000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223393216666665, lat=-5.835595133333333}, altGps=123.8, speedGps=0.2057776, bearingGps=59.9, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.9884497301471633, bearingComputed=286.89449007287607, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:11.512 DEBUG [Nofix worker] Nofix wake up 1356376326 > 1356380338
+2022-08-09 17:09:11.523 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064950000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22338656666667, lat=-5.835605916666667}, altGps=123.5, speedGps=0.257222, bearingGps=61.7, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.406717428276545, bearingComputed=148.47102791737538, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:12.528 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064951000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223375716666666, lat=-5.835615683333334}, altGps=123.0, speedGps=0.2057776, bearingGps=67.1, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.6186150696220405, bearingComputed=132.1401428937284, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:13.511 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064952000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22338201666667, lat=-5.835604683333333}, altGps=123.7, speedGps=0.1543332, bearingGps=66.1, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.4077457577301784, bearingComputed=330.3272726069599, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:14.513 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064953000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223377916666664, lat=-5.835595083333334}, altGps=123.4, speedGps=0.1028888, bearingGps=66.3, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.1598234434392662, bearingComputed=23.01918650837058, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:15.512 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064954000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22337965, lat=-5.835595583333333}, altGps=123.4, speedGps=0.0514444, bearingGps=66.6, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.19963702778969522, bearingComputed=253.8297325199205, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:16.513 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064955000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233736, lat=-5.835588216666666}, altGps=123.0, speedGps=0.1028888, bearingGps=63.3, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.057766504657668, bearingComputed=39.24919905466862, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:16.514 DEBUG [Nofix worker] Nofix wake up 1356381329 > 1356386328
+2022-08-09 17:09:17.519 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064956000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22337026666667, lat=-5.835586533333333}, altGps=123.0, speedGps=0.4629996, bearingGps=72.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.41351746455910965, bearingComputed=63.08625355152257, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:18.524 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064957000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233607, lat=-5.835575933333334}, altGps=122.9, speedGps=0.3601108, bearingGps=76.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.5840301767446643, bearingComputed=41.91872224919044, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:19.530 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064958000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22335335, lat=-5.83556655}, altGps=122.2, speedGps=0.2057776, bearingGps=76.7, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.3227569290685195, bearingComputed=37.9273074803294, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:20.537 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064959000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22335345, lat=-5.83556865}, altGps=121.5, speedGps=0.1543332, bearingGps=75.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.23377121210175728, bearingComputed=182.71220369531704, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:21.515 DEBUG [Nofix worker] Nofix wake up 1356386329 > 1356390352
+2022-08-09 17:09:21.516 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064960000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336365, lat=-5.835581733333333}, altGps=121.8, speedGps=0.1028888, bearingGps=83.6, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.8410672881215422, bearingComputed=217.79635647366638, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:22.538 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064961000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233677, lat=-5.835578583333334}, altGps=121.9, speedGps=0.1028888, bearingGps=83.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.5686773931860698, bearingComputed=308.01934153671624, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:23.532 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064962000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223370083333336, lat=-5.8355757666666666}, altGps=121.9, speedGps=0.1028888, bearingGps=82.3, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.40939019000335974, bearingComputed=319.9103707240908, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:24.583 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064963000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336726666666, lat=-5.8355634}, altGps=121.5, speedGps=0.2057776, bearingGps=78.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.4099676352583774, bearingComputed=12.766655146986865, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:25.525 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064964000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336466666667, lat=-5.8355613}, altGps=121.4, speedGps=0.5658884000000001, bearingGps=81.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.37046635479656664, bearingComputed=50.92686363036906, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:26.530 DEBUG [Nofix worker] Nofix wake up 1356391345 > 1356395339
+2022-08-09 17:09:26.531 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064965000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223357183333334, lat=-5.8355562333333335}, altGps=120.9, speedGps=0.6687772000000001, bearingGps=49.8, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=1.0013254933538709, bearingComputed=55.76130347072208, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:27.523 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064966000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223355516666665, lat=-5.835553683333333}, altGps=120.7, speedGps=0.514444, bearingGps=33.3, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.3382147271460475, bearingComputed=33.03223343042422, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:28.528 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064967000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336305, lat=-5.835553933333333}, altGps=120.4, speedGps=0.514444, bearingGps=32.6, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.8337910258595478, bearingComputed=268.0893947120123, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:29.518 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064968000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223364366666665, lat=-5.835556316666667}, altGps=120.2, speedGps=0.6173328, bearingGps=33.2, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.3024004778320374, bearingComputed=208.79252026629945, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:30.538 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064969000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233644, lat=-5.835554566666667}, altGps=119.9, speedGps=0.4629996, bearingGps=43.9, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.19462605353407522, bearingComputed=358.914437508918, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:31.513 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064970000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22335916666667, lat=-5.835554716666667}, altGps=119.6, speedGps=0.6173328, bearingGps=82.7, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.5791447228560841, bearingComputed=91.65033414318621, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:31.531 DEBUG [Nofix worker] Nofix wake up 1356396345 > 1356401327
+2022-08-09 17:09:32.537 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064971000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223364933333336, lat=-5.8355552500000005}, altGps=119.2, speedGps=0.5658884000000001, bearingGps=75.8, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.6406518644156275, bearingComputed=264.6886312169537, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:33.526 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064972000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336511666666, lat=-5.835556416666667}, altGps=119.3, speedGps=0.3601108, bearingGps=66.3, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.13130302438302094, bearingComputed=188.88504974136296, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:34.518 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064973000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233655, lat=-5.835559516666667}, altGps=119.0, speedGps=0.257222, bearingGps=67.8, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.34730263524287375, bearingComputed=187.01301262364052, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:35.534 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064974000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336988333333, lat=-5.8355617833333335}, altGps=118.9, speedGps=0.1543332, bearingGps=71.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.5464726363542102, bearingComputed=242.53440879694756, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:36.529 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064975000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22337303333333, lat=-5.8355625}, altGps=118.6, speedGps=0.3086664, bearingGps=68.8, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.3574451967961647, bearingComputed=257.11808528118405, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:36.533 DEBUG [Nofix worker] Nofix wake up 1356401347 > 1356406344
+2022-08-09 17:09:37.534 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064976000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336615, lat=-5.835558366666667}, altGps=118.4, speedGps=0.3086664, bearingGps=59.1, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.8893851411867509, bearingComputed=58.88430273045746, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:38.529 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064977000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22335913333333, lat=-5.835559683333333}, altGps=118.1, speedGps=0.2057776, bearingGps=56.3, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.7898618534639881, bearingComputed=100.68196429726267, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:39.548 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064978000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.2233568, lat=-5.835560166666666}, altGps=118.4, speedGps=0.1543332, bearingGps=60.1, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.26364627449837064, bearingComputed=101.7621701198877, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:40.526 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064979000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22335688333333, lat=-5.835560216666667}, altGps=118.7, speedGps=0.1028888, bearingGps=60.5, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.010765056448498216, bearingComputed=238.9047499918402, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:41.527 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064980000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22335688333333, lat=-5.835560216666667}, altGps=118.8, speedGps=0.0514444, bearingGps=54.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.0, bearingComputed=0.0, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:41.533 DEBUG [Nofix worker] Nofix wake up 1356406348 > 1356411342
+2022-08-09 17:09:42.523 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064981000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22335403333334, lat=-5.835561083333333}, altGps=118.9, speedGps=0.1543332, bearingGps=49.7, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.3296633163460707, bearingComputed=106.9972214230937, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:43.535 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064982000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22335405, lat=-5.835561083333333}, altGps=119.1, speedGps=0.1028888, bearingGps=49.4, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.001843644230385153, bearingComputed=270.0, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:44.513 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064983000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336206666667, lat=-5.8355628500000005}, altGps=119.5, speedGps=0.0514444, bearingGps=47.3, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.9082909951660997, bearingComputed=257.50941874224026, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:45.507 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064984000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336685, lat=-5.835570183333333}, altGps=119.9, speedGps=0.0514444, bearingGps=48.8, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.9720594663442912, bearingComputed=212.97923705206665, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:46.511 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064985000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22337035, lat=-5.835577016666667}, altGps=120.3, speedGps=0.1028888, bearingGps=50.1, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.8527846877417106, bearingComputed=207.00069854074053, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:46.534 DEBUG [Nofix worker] Nofix wake up 1356411348 > 1356416325
+2022-08-09 17:09:47.518 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064986000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336655, lat=-5.835578533333333}, altGps=120.4, speedGps=0.2057776, bearingGps=50.7, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.45291978166540225, bearingComputed=111.8607518400503, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:48.538 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064987000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336435, lat=-5.835579933333333}, altGps=120.6, speedGps=0.2057776, bearingGps=71.9, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.2888921651316216, bearingComputed=122.60617748756007, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:49.525 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064988000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336335, lat=-5.8355753833333335}, altGps=120.6, speedGps=0.2057776, bearingGps=70.2, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.5178886533964397, bearingComputed=12.333141759163212, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:50.531 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064989000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22336001666667, lat=-5.8355751}, altGps=120.9, speedGps=0.2057776, bearingGps=64.8, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.37007246298356605, bearingComputed=85.11635048747777, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:51.538 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064990000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.22335651666667, lat=-5.835573783333333}, altGps=121.0, speedGps=0.3086664, bearingGps=40.9, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.41392265508072484, bearingComputed=69.28588170429018, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:51.538 DEBUG [Nofix worker] Nofix wake up 1356416353 > 1356421352
+2022-08-09 17:09:52.527 DEBUG [Info] adding loc: SensorsLocation{isReal=true, isValid=true, time=1660064991000, rolloverOffset=RolloverOffset{builtin=0, configured=0}, coord=LonLat{lon=-35.223351183333335, lat=-5.83557625}, altGps=120.8, speedGps=0.4115552, bearingGps=68.0, headingCompass=null, airspeedSensor=null, pressure=null, speedComputed=0.650607602345743, bearingComputed=114.93415340639443, headingComputed=0.0, airspeedComputed=0.0}
+2022-08-09 17:09:53.357 INFO [mainActivity] Preferences changed (Testing.ExternalSensorLog), reloading.
