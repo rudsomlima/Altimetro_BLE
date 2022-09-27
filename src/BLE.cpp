@@ -21,16 +21,24 @@
 */
 #include <Arduino.h>
 #include <NimBLEDevice.h>
+#include <MS56XX.h>
+#define I2C_SDA 21
+#define I2C_SCL 22
+
+MS56XX MSXX(MS56XX_ADDR_LOW, MS5611); //Barometer object, change the address depending if your CSB pin is pulled high or low, change MS5607/11 to your desired sensor
+
 
 BLEServer* pServer = NULL;
 BLECharacteristic* pCharacteristic = NULL;
 bool deviceConnected = false;
 bool oldDeviceConnected = false;
 
-uint32_t altura = 0;
+float pressao = 0;
+float temperatura = 0;
+float altitude = 0;
 uint16_t bateria = 10100;
 uint32_t get_time = millis();
-#define FREQUENCY 1 // freq output in Hz
+#define FREQUENCY 10 // freq output in Hz
 // #define BLUETOOTH_SPEED 9600 //bluetooth speed (9600 by default)
 
 // See the following for generating UUIDs:
@@ -54,7 +62,16 @@ class MyServerCallbacks: public BLEServerCallbacks {
 
 void setup() {
   delay(500);
+  Wire.begin(I2C_SDA, I2C_SCL);
   Serial.begin(115200);
+
+  while(!MSXX.begin()) { //Check if baro has initialized correctly
+  Serial.println("BARO-FAIL");
+  Serial.println();
+  delay(1000);
+  }
+  MSXX.configBaro(BARO_PRESS_D1_OSR_4096, BARO_TEMP_D2_OSR_4096); //Configure oversampling rate for pressure and temperature respectively, default is 512 for both
+
 
   // Create the BLE Device
   BLEDevice::init("ESP32");
@@ -97,8 +114,13 @@ void loop() {
       if (deviceConnected) {
         // Serial.println(millis()-get_time);
         get_time = millis();
-        String str_out = String("LK8EX1,999999,")
-        +altura+",9999,26,"+bateria;
+        // LK8EX1,pressure,altitude,vario,temperature,battery,*checksum
+        bool dataready = MSXX.doBaro(true); //Calculate pressure and temperature, boolean for altitude estimation from sea level
+        pressao = MSXX.pressure;
+        temperatura = MSXX.temperature;
+        altitude = MSXX.altitude;
+        String str_out = String("LK8EX1,")+pressao+","+
+        +altitude+ "," + "9999," + temperatura + ","+bateria;
         
         uint16_t checksum = 0, bi;
         for (uint8_t ai = 0; ai < str_out.length(); ai++)
@@ -112,9 +134,8 @@ void loop() {
         str_out.toCharArray(buf,100);
         pCharacteristic->setValue(buf);
         pCharacteristic->notify();
-        altura++;
         bateria--;
-        //Serial.println(str_out);       
+        Serial.println(str_out);       
         delay(3); // bluetooth stack will go into congestion, if too many packets are sent, in 6 hours test i was able to go as low as 3ms
       }
       // disconnecting
