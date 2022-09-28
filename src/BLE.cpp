@@ -21,21 +21,20 @@
 */
 #include <Arduino.h>
 #include <NimBLEDevice.h>
-#include <MS56XX.h>
+#include "MS5611.h"
 #define I2C_SDA 21
 #define I2C_SCL 22
 
-MS56XX MSXX(MS56XX_ADDR_LOW, MS5611); //Barometer object, change the address depending if your CSB pin is pulled high or low, change MS5607/11 to your desired sensor
-
+MS5611 MS5611(0x77);
 
 BLEServer* pServer = NULL;
 BLECharacteristic* pCharacteristic = NULL;
 bool deviceConnected = false;
 bool oldDeviceConnected = false;
 
-float pressao = 0;
-float temperatura = 0;
-float altitude = 0;
+uint32_t pressao = 0;
+uint16_t temperatura = 0;
+uint32_t altitude = 0;
 uint16_t bateria = 10100;
 uint32_t get_time = millis();
 #define FREQUENCY 10 // freq output in Hz
@@ -64,14 +63,20 @@ void setup() {
   delay(500);
   Wire.begin(I2C_SDA, I2C_SCL);
   Serial.begin(115200);
-
-  while(!MSXX.begin()) { //Check if baro has initialized correctly
-  Serial.println("BARO-FAIL");
-  Serial.println();
-  delay(1000);
+  esp_err_t esp_wifi_init ();  //corrige o problema do BLE não inicializar
+ 
+  if (MS5611.begin() == true)
+  {
+    Serial.println("MS5611 found.");
   }
-  MSXX.configBaro(BARO_PRESS_D1_OSR_4096, BARO_TEMP_D2_OSR_4096); //Configure oversampling rate for pressure and temperature respectively, default is 512 for both
-
+  else
+  {
+    Serial.println("MS5611 not found. halt.");
+    while (1);
+  }
+  Serial.println();
+  MS5611.setOversampling(OSR_ULTRA_HIGH);
+  MS5611.setTemperatureOffset(-1);
 
   // Create the BLE Device
   BLEDevice::init("ESP32");
@@ -115,11 +120,18 @@ void loop() {
         // Serial.println(millis()-get_time);
         get_time = millis();
         // LK8EX1,pressure,altitude,vario,temperature,battery,*checksum
-        bool dataready = MSXX.doBaro(true); //Calculate pressure and temperature, boolean for altitude estimation from sea level
-        pressao = MSXX.pressure;
-        temperatura = MSXX.temperature;
-        altitude = MSXX.altitude;
-        String str_out = String("LK8EX1,")+pressao+","+
+        // bool dataready = MSXX.doBaro(true); //Calculate pressure and temperature, boolean for altitude estimation from sea level
+        float temp=0;
+        float pressure = 0;
+        MS5611.read();   
+        temp = MS5611.getTemperature();
+        pressure = MS5611.getPressure()*100; //mBar para Pascal;
+        Serial.println(temp);
+        Serial.println(MS5611.getPressure());
+        temperatura = uint16_t(temp)*100; 
+        pressao = uint32_t(pressure);
+        altitude = 99999;  //nao utilizado por isso 99999
+        String str_out = String("LK8EX1,")+pressao+","
         +altitude+ "," + "9999," + temperatura + ","+bateria;
         
         uint16_t checksum = 0, bi;
